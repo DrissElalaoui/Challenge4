@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto+Slab:wght@100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+}
+.body {
+    background-color: #fafafa;
+    padding: 50px 0;
+}
+.body .section {
+   
+    max-width: 1100px;
+    margin: auto;
+    border-radius: 10px;
+}
+.body .section .section1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+}
+.body .section .section1 .partie1 {
+    /* background-color: green; */
+    width: 300px;
+}
+.body .section .section1 .partie1 h2 {
+    font-size: 45px;
+    margin-bottom: 25px;
+    line-height: 40px;
+    color: #2E073F;
+}
+.body .section .section1 .partie1 p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+}
+.body .section .section1 .partie2 .rect2 {
+   margin: 15px 0 15px 20px ;
+}
+.body .section .section1 .partie2 .rect3 {
+   margin-left: 40px;
+}
+.body .section .section1 .partie2 .rect {
+    background-color: #d8d6d6;
+    display: flex;
+    padding: 10px 15px ;
+    border-radius: 10px;
+    width: 100%;
+}
+.body .section .section1 .partie2 .rect .img {
+    margin-right: 20px;
+}
+.body .section .section2 {
+    margin-top: 50px;
+    display: flex;
+    column-gap: 10px;
+}
+.body .section .section2 .tout .cart {
+    background-color: #2E073F;
+    padding: 40px 30px;
+    border-radius: 10px;
+}
+.body .section .section2 .tout .cart2 {
+    margin-top: 30px;
+}
+.body .section .section2 .tout .cart3 {
+    margin-top: 60px;
+}
+.body .section .section2 .tout  {
+   height: 300px;
+   /* background-color: red; */
+   
+}
+.body .section .section2 .cart .haut {
+    display: flex;
+    margin-bottom: 15px;
+}
+.body .section .section2 .cart h3 {
+  font-size: 14px;
+  color: #fff;
+  line-height: 20px;
+}
+.body .section .section2 .cart .haut .right  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body .section .section2 .cart .haut .right h4 {
+    font-size: 18px;
+    color: rgb(252, 175, 10);
+}
+.body .section .section2 .cart .haut .right h4 span {
+    font-size: 14px;
+    color: #DD88CF;
+}
+.body .section .section2 .cart .haut img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
